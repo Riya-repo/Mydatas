@@ -1,4 +1,4 @@
 # Example Repository
-My Repository
+My new Repository
 
 New change
