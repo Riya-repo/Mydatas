@@ -1,0 +1,19 @@
+
+Pushed to preprod.
+The Fixes are  
+Hariharan - UserManagement  Collateral Report :
+1. The search should be in free text and now this is type and select kind of.
+2. The clear button need to add in the filter.
+3. The copy pasted email might have the tab or white space, this may lead duplication of the user,
+4. Currently getting error and user got created. but the activation is not happening.  so we need to trim the white/tab in emails. to avoid errors.
+5. The clear search field option is not available on the report page.  -- done
+6. Degree multi select is not working in Report page. -- done
+7. College dropdown many college is not listed down in the dropdown -- done
+8. Sort in every table -- done
+9. Add table sorting on all the tables -- done
+10. Group dropdown count is wrong, not showing all the created group  -- done
+11. College dropdown count is wrong, not showing all the colleges -- done
+12. Group dropdown count is wrong, not showing all the created group -- done
+13. The college/group dropdown only showing 10 datas not shwoing all the list -- done
+
+

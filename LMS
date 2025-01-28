@@ -1,0 +1,68 @@
+LMS:
+Category and status are still there even after clearing the field --exist
+Filtered courses stays still even when we erase the search --exist
+When we cancel a course creation without saving, the data are kept by default (some actions required/needs to be refreshed) --done
+Short description placeholder is not correct.[Letters should be there instead of words] --exist
+There is no limit for objective of the course (words/letters) --exist
+Cancel invite stays in the same page but error message pops as Canceled --exist
+While sharing a course in private, the invite does not shows the users under the specified college
+Administration does not shows any courses --done
+ 
+Nantha - LMS & Assessment
+1. Sometimes the Total Section count was wrong.															    "total qn count wrong "
+2. Invite & Share: Adding email ids total count should be shown in the text area. -- done
+3. Limiting 250 email IDs to be sent for each time. -- done
+4. What is the use of select column under administration - even if I deselect (for eg scores) in the select column no change either in display or in reports         "doesn't work"
+5. Show a comment when the any document in uploaded in LMS as document successfully uploaded - LMS                                                                   "
+6. The section count is wrong while creating the assessment, by default it is showing "1" and once we add and delete the section the count is not updating -- done
+7. ProctorCode feature - New Feature
+
+
+embedd  vdo off
+same time duration in campus and arena
+resume the course from where we left- arena
+course status completed
+
+
+Groups = Search for users
+
+ 
+Filtered courses stays still even when we erase the search.(also in arena app)
+Can't able to choose multiple courses in filter.(check)
+While adding documents in lesson creation , preview is not available for docx,pdf but available for xlxs.
+
+Filtered courses stays still even when we erase the search.
+Mark as complete is not able to uncheck.
+Previous and next button is not available for Coding questions.
+Coding page scroller is not working.
+coding page and test case visibility page size.
+Run all cases button is enabled even if sample cases are failed.
+Expand button is not working but answers are submitted.
+pagination needs to be made sticky.
+Why it is tags in course creation and skills in Arena?
+use of save code button?
+
+24th Jan
+
+LMS:
+1.Category and status are still there even after clearing the field.
+2.Short description placeholder is not correct.[Letters should be there instead of words] 
+3.There is no limit for objective of the course (words/letters) 
+4.Cancel invite stays in the same page but error message pops as Cancelled.
+5.Same start and end date/time is possible while sharing course in private.
+6.Scroller is not working as expected in Administration page.
+7.Administration page takes too much loading time.
+8.There is no scroll bar at the botton of Administration page.
+9.Updating/Adding users in a group results in error and user is not updated.
+10.Sending invites through groups and sending invite individually Shows courses two times.
+11.There is no preview and next button for Code lab page.
+12.I am not able to uncheck the mark as completed button.
+13.Blue screen background is flashing for page navigation.
+14.Assessment sessions spelling is wrong in Dashboard page.
+15.Expand page icon is not working.
+16.Why there is an empty space on the right side?.
+
+
+
+
+

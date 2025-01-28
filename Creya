@@ -1,0 +1,188 @@
+1.Min & max experience - no experience (fresher)
+2.why no save draft option for 1st three stepper?
+3.when cancelling from 3rd stepper JD is stored (modify JD, JD preview)
+4.send invite page view
+5.Table has extra column
+
+
+JD changes in landing page
+edit settings
+drafted pop up msg--
+
+
+check allow recording mentioned in any of the places
+why check box in candidates
+
+
+
+
+14,18,19,24,37
+
+Bugs found in Creya:
+1.The JD created using Gen AI in rich text area is also shown in Traditional when switching from Gen AI to Traditional(The same happens when JD is created using Traditional)
+
+3.When we cancel JD creation , the datas stays still.
+4.In question setup(second stepper in creation) the keywords are matching with the created JD but not matches when there is any changes made in the JD.[Also happens in edit flow]
+5.In question setup(second stepper in creation) technical skills matches with generated JD but not matched with modified JD.[Also happens in edit flow]
+6.In question setup(second stepper in creation) non technical skills matches with generated JD but not matched with modified JD.[Also happens in edit flow]
+7.The interview duration field asks for duration but the error pops for number of questions and The field shadow layout is different from other fields.
+8.In schedule name field the field shadow layout is missing.
+9.In start date field there should be a change in text "Duration must be LATER THAN"
+10.Email id field- Field shadow layout is missing. No indication of wrong email, it simply erases it. When uploading multiple email ids, clicking enter deletes random email ids(enter works as back space).Instead of indicating duplication it erases all duplicates.
+11.In send invites page(4th stepper of creation), Send invite button is loading when clicking on invite later button.
+12.There is no pop up message when clicking on invite later indicating drafted status.
+13.When there is no interviews available with the required status then it shows the text “Let's schedule your next AI interview”.(happens when sorting interviews with status ex:Active, published....)
+14.In schedules page , the scheduled interview has on hold option but the status is not updated but updated pop up message appears.
+15.In editing flow, the role name field should be non editable/ the role names should be edited and the changes should be shown in job title.
+16.When hitting invite later it shows the list of candidates which should not be shown.(I have entered email ids but i have hit invite later)
+17.The cancel option keeps the data even after hitting cancel while adding candidates.
+18.The last column is empty in the candidates page (where candidates are listed).
+19.In edit flow , When updating details with error, update button stays loading.
+20.There is no save draft option for 1st three stepper in creation flow.
+
+Bugs found in Creya:
+1.The JD created using Gen AI in rich text area is also shown in Traditional when switching from Gen AI to Traditional(The same happens when JD is created using Traditional)
+2.When we cancel JD creation , the data stays still.
+3.In question setup(second stepper in creation) the keywords are matching with the created JD but not matches when there is any changes made in the JD.[Also happens in edit flow]
+4.In question setup(second stepper in creation) technical skills matches with generated JD but not matched with modified JD.[Also happens in edit flow]
+5.In question setup(second stepper in creation) non technical skills matches with generated JD but not matched with modified JD.[Also happens in edit flow]
+6.The interview duration field asks for duration but the error pops for number of questions and The field shadow layout is different from other fields.
+7.In schedule name field the field shadow layout is missing.
+8.In start date field there should be a change in text "Duration must be LATER THAN"
+9.Email id field- Field shadow layout is missing. No indication of wrong email, it simply erases it. When uploading multiple email ids, clicking enter deletes random email ids(enter works as back space).Instead of indicating duplication it erases all duplicates.
+10.In send invites page(4th stepper of creation), Send invite button is loading when clicking on invite later button.
+11.There is no pop up message when clicking on invite later indicating drafted status.
+12.In schedules page , the scheduled interview has on hold option but the status is not updated but updated pop up message appears.
+13.In editing flow, the role name field should be non editable/ the role names should be edited and the changes should be shown in job title.
+14.When hitting invite later it shows the list of candidates which should not be shown.(I have entered email ids but i have hit invite later)
+15.The cancel option keeps the data even after hitting cancel while adding candidates.
+16.The last column is empty in the candidates page (where candidates are listed).
+17.In edit flow , When updating details with error, update button stays loading.
+18.There is no save draft option for 1st three stepper in creation flow.
+29.Email ids provided count in send invites page: It stores the default count which it had during
+
+
+
+
+
+
+
+
+
+
+
+BUG TRACKER:
+
+https://docs.google.com/spreadsheets/d/173iDfmV9VlPRJxcQ4ByZMKmilSGCHkBHWPjyThaBQwU/edit?gid=812812238#gid=812812238
+
+Creya test cases:
+
+https://docs.google.com/spreadsheets/d/1fTKQ7g_3FHOAYBibtGr4naAqfC5DqKWr6csMUBAm5ng/edit?gid=235496115#gid=235496115
+
+creya idesk team:
+
+https://docs.google.com/spreadsheets/d/1G38sPHkKc2la_v9NuYtJBIqEoKElWNCHr5SgtpbmTGA/edit?gid=0#gid=0
+
+Creya Figma link:
+
+https://www.figma.com/design/Lx7UHvQBinjQxySTgKdhvq/Creya.ai?node-id=97-297&p=f&t=t3MIQXf69q5bzjd2-0
+https://www.figma.com/design/Lx7UHvQBinjQxySTgKdhvq/Creya.ai?node-id=97-297&node-type=canvas&t=PQPAGI3igTvbRcx6-0
+
+Creya Figma play:
+
+https://www.figma.com/proto/Lx7UHvQBinjQxySTgKdhvq/Creya.ai?page-id=97%3A297&node-id=4645-2239&node-type=frame&viewport=692%2C-9502%2C0.46&t=kbnJXk05ps24Gxi4-1&scaling=contain&content-scaling=fixed
+
+Creya feedback and idesk team tracker:
+
+https://docs.google.com/spreadsheets/d/1G38sPHkKc2la_v9NuYtJBIqEoKElWNCHr5SgtpbmTGA/edit?gid=1303366837#gid=1303366837
+
+
+
+
+Bugs found in Creya :
+1.Needs tool tip for all the icons.
+2.If there is a delay in answering questions, it is not accepting the input.
+3.I had network issue so i tried to reload the page , the bot asked the next question continuously but the session time restarted.
+4.There is no indication of input being processed.
+5.Bot response it too large and repeats the input as key points.
+6.When the resume is failed to upload, the page directs to Assessment page.
+7.Name labelling is not my name.
+8.I was attending a Software developer interview but my Job name is shown as Customer Success manager in instructions page.
+9.
+
+
+
+
+
+1.Terminating the session takes too much of time. 
+2.If i try to end my call, the page shows termination mesage but the bot keeps asking questions.
+3.When i take few secs to answer the question the bot is not taking my input. 
+4.Sometimes the it takes only half of my input and asks the next question.
+5.After continuosly answering 2 question, when answering the next question there is no response for more than 2 minutes. 
+6.Not showing user name(my name on) the top.
+7.Don't know why it is showing undefined on the top.
+
+Session ID:
+4.Tab switching asking new question
+5.Bot takes only half of my input
+6.Takes too lonh
+https://dev-arena.interviewdesk.in/creya/candidate/b290069e-0abf-4a0c-ac3b-3d217d64c47d/interview-layout/idsk.id.candidate.e4e1f74c-2d4a-4b78-b09f-a881b783/1326162b-ae0d-4a0b-ac5a-590b7f16dfc0/onGoing/
+
+
+
+1.(Crya_077)Make the "Enable proctoring" by default on, but there should be option to turn off too as per the user preference.(This is not shown anywhere in the creation flow)
+2.In the invite mail the Start interview button text is not visible.
+
+
+20th Jan
+Mandatory field Asterisk colour
+Same start and end date
+More options button in card
+Invite later does not saves data as draft(2 pop up appears "Failed to save draft","Draft saved succesfully"
+But drafting works in schedule interview page(launches in creya landing page instead of Schedules page)
+Start interview button text in email.
+Please generate and create a job description
+
+
+
+From figma:
+
+
+
+
+
+no tab switch
+
+
+
+
+1.Needs start and end date field validation.
+2.Make Start interview button text in mail visible.
+3.Mandatory field Asterisk colour can be changed into red to make it visible. 
+4.PLaceholder size needs to be same as other fields.
+5.Job Description Alignment is changed whenever we move to the next step.
+
+ 
+> Above 70%, the value is showing Zero but in the report, the candidate scored above 70% ( Software Developer role).
+> The status is not showing draft when I click Invite later. But the success message shows that the "Draft Saved Successfully"
+> While clicking Invite later getting 2 warning messages, 1 is "Draft saved successfully" and the other is "Failed to save draft".
+> When is the status of schedules changing? ( Doubt).
+> Placeholder size needs to be the same and consistent as other fields.
+> Placeholder needs to be changed in JD Keywords fields.
+> Not supporting bulk email ID in the added candidate.
+> The email id provided count is showing wrong in the add candidate drawer. It does not clear the previously added count.
+> Existing email is not showing more than 10nos.
+> Candidate is not listing while inviting bulk.
+> Showing invalid date on interview date and time column.
+> Expired status is not showing in the schedules.
+> What is the use of processing status in the candidate table?
+
+
+
+
+
+
+
+
+
+

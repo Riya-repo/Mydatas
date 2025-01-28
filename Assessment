@@ -1,0 +1,75 @@
+Sample TC for campus app
+
+QUESTIONS SECTION:
+
+TC-ID			TEST CASES						EXPECTED OUTPUT							        		        ACTUAL OUTPUT
+
+TC01 -  Verify the working of search bar		 -> Search with a full question						                                  	        "Not as expected"
+						         -> Search with special characters									       	        "Not as expected"
+[TC02 -  Verify bulk upload preview 		    	 -> During bulk uplading of questions, in preview the question can have deleting option	]		     		
+TC03 -  Verify bulk uploading of empty file		 -> The system should indicate empty files								     		"Loading error" !*
+TC04 -  Verify uploading multiple files		         -> Bulk upload should allow multiple files while uploading						     	        "Accepts upto 5 files"
+							  < Needs indication of files uploading limit >
+TC05 -  Verify bulk upload			    	  < The upload button can be sticky on top for better visibility >
+   					     	          < After preview the page should not exit or escape/ can have an indication of yes or no to exit  >
+TC06 - Verify adding multiple choice options		  < The place holder is in editable format >
+TC07 - Verify adding options 				  < The system should show mandatory answer option > < Want to change the text " Answer options " >
+
+
+ASSESSMENT SECTION:
+
+TC08 - Verify section count updated in header while adding assessment < keeps default value as 1 and considers it during count when Assessment is left drafted >
+TC09 - Verify duration in header 			  < The duration is not updated in the header >
+TC10 - Verify for Override score			  < The neutral value is in initial state and becomes empty after overridden >
+TC11 - Verify view questions		 		  < Viewing question under section shows edit question as a title >
+TC12 - Verify the assessment filter search		  < Search bar moves along while scrolling >
+TC13 - Verify job role search filter			 -> The search should filter the assessment with the specified search		          "Not as expected when 2 job role are searched together"
+TC14 - Verify maturity filter				 -> The search should provide expected result when searched with 2 maturity status				        "Not as expected"
+[TC15 - Verify for duplication with assessment keyword	 -> The system should show if the assessment already exists with this name					        "Not as expected"]
+
+
+ADMINISTRATION SECTION:
+
+TC16 - Verify for search Administration			 -> The search bar should check for duplicates and should show already existing Administration			     	       "Not as expected"
+TC17 - Verify duration settings			 	 -> The duration settings is a mandatory field							         "Mandatory field Asterisk is not shown"
+TC18 - Verify for test retake				  < The test retake is shown in completed tests, after clicking retake refreshing the page is required for viewing the test in active tests>
+        						  < For refreshing the page we need to escape the window as the page exists in full screen mode >
+        						  < Retake tests from the same invite link is possible >
+TC19 - Verify for toggle switches in assessment settings -> Enable and disable of toggle switches should be available		  				"Code replay toggle switch isn't working"
+
+TEST REPORT:
+
+TC20 - Verify for submitting answers button		  < Test page contains 2 submit answers button (This is for fill up question) > < This hides the answering field >
+TC21 - Verify for status in report			  < Except for fill up and comprehension question all other question"s status has colour >
+TC22 - Verify for status in report			  < The status of coding question is not updated in report >
+
+NEW CASES:
+
+1. After editing the Assessment job role is not updated when drafted.
+2. Coding question status is not updated in report.
+3. When question randomisation is enabled it shows "section configuration" instead of randomising option. [Done]
+4. Bulk upload questions are shown in my questions only after refresh.
+5. Total questions count is wrong in header while creating sections in assessment. [Done]
+6. Tab switching and full screen exit count.
+7. Multiple choice doesn't work for Comprehension question. [Done]
+8. Atleat 1 question should be add in section.
+
+
+
+22nd Jan:
+1.Category and topics default dropdown is less in count.
+2.why answer is not shown in view option for fill up question.
+3.Bulk upload filters.
+4.Bulk upload takes more time requires refresh/ action.
+5.Long question with question mark
+6.View action in college has no back option
+
+23rd jan
+1.Dashboard throws 500 error
+2.when sharing course in private the fields are disabled for 3 secs.
+3.Assessment sessions spelling is wrong.
+6.Expand page button is not working.
+
+
+
+

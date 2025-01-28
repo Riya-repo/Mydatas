@@ -1,0 +1,46 @@
+.Requires page split up view when resume content exceeds.
+.When two work experiences are added,Removing a work experience removes only the recently/last added experience.
+.After removing a work experience, adding another experience has the same data available that are deleted previously.
+.Education/experience details are shown by default while adding course details.
+.After editing any category details the changes are not visible in resume view.
+.Language proficiency bar is wrong on clicking fluent as a proficiency.
+.The level bar is not working for expert level.
+.GitHub link format - https://username.com
+
+
+
+
+[College/School highlighted text]
+[Grade font]
+[Category field may be kept above download PDF button]
+[Auto formatting of text according to resume builder]
+[GitHub and linked in links enter without space]
+[Present check box near end date]
+
+
+
+
+4
+11
+15
+17
+30
+.Instead of adding categories, the categories may be kept visible when turning toggle switch off.
+.
+
+
+
+These are some of the bugs that i found today . Thillai sir asked me to send this you and him.Once please check on this Bro and then I'll send this to him.
+
+1.Requires page split up view when resume content exceeds. --
+2.When two work experiences are added,Removing a work experience removes only the recently/last added experience. --
+3.After removing a work experience, adding another experience has the same data available that are deleted previously. --
+4.Education/experience details are shown by default while adding course details. --
+5.After editing any category details the changes are not visible in resume view. --
+6.Language proficiency bar is wrong on clicking fluent as a proficiency.
+7.The level bar is not working for expert level.
+8.All the start and end date fields automatically take on the initial values set in the first category.
+
+After removing a work experience in experience category, when we try to add new work experience the data of deleted work experience exists.---
+Editing start and end date of any category makes changes in the start and end date of other categories.
+Check the user logged in on one browser and closed and opened the same assessment in the other browser, do the user able to continue from where is left? [NO]
