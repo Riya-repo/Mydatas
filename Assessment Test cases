@@ -1,0 +1,211 @@
+Sample TC for campus app
+
+QUESTIONS SECTION:
+
+TC-ID			TEST CASES						EXPECTED OUTPUT							        		      ACTUAL OUTPUT
+
+TC01 -  Verify navigation of page using URL       	 -> The page should navigate to login page                                                               	       "As expected"
+TC02 -  Verify login with valid email             	 -> The user should be able to login the portal successfully                                     		       "As expected"
+TC03 -  Verify login with invalid email         	 -> The system should throw an error message of invalid user                                       	               "As expected"
+TC04 -  Verify logging with invalid password		 -> The system should show an error message 
+TC05 -  Verify login page with valid password     	 -> The system should show error message for requiring valid details					      
+                                                  	 => < Error message with requirement of Uppercase,lower case, numerical character and a special character > 	       "As expected"
+TC06 -  Verify that the user cannot login with blank fields -> The system should show an required field error message					    		       "As expected"
+TC07 -  Verify for reset password		         -> The user should receive verification code for their mail address				 	       	       "As expected" 
+TC08 -  Verification of password hide/show toggle  	 -> The user should be able to switch visibility of password							       "As expected"
+TC09 -  Verify temporary portal lock for multiple failed attempts -> The portal should be temporarily locked						      
+TC10 -  Verify working on different browsers	   	 -> Portal should work on different browsers								    	       "As expected"
+TC11 -  Verify working of portal in mobile view	 	 -> Portal should work on mobile devices								    	       "As expected"
+TC12 -  Verify the working of search bar		 -> search feature should accept both upper case and lowercase letters                                   	       "As expected"
+						 	 -> Should indicate grammatical errors								    		       "As expected"    
+						 	 -> Search with a full question									     	               "Not as expected"
+						         -> Search with a keyword										   	       "As expected"
+						         -> Search with special characters									       	       "Not as expected"
+						         -> Search with numeric characters									     	       "As expected"
+TC13 -  Verify search with partial word matches   	 -> The system should show relevant questions with the partial key word search			     		       "Not As expected"
+TC14 -  Verify search with difficulty filter	         -> The system should show the questions with the required difficulty level				    	       "As expected"
+TC15 -  Verify search with Types filter		         -> The questions under the given type should be filtered and displayed				     		       "As expected"
+TC16 -  Verify search with Category     		 -> The system should filter questions under that category and should be displayed			   	       "As expected"
+TC17 -  Verify search with Topics                    	 -> The system should filter questions under the given topic and should be displayed			    	       "As expected"
+TC19 -  Verify pagination for the search result	         -> If search results require more space all the questions should be displayed with pagination		    	       "As expected"
+TC20 -  Verify clearing of filters		         -> The system should clear all the filters if the user clicks clear all filter			     		       "As expected"
+TC21 -  Verify bulk upload of questions	   	         -> The bulk upload option should enable the user to upload bulk questions at a time			    	       "As expected"
+TC22 -  Verify bulk upload with valid file	         -> The bulk upload option should accept valid file format and reject other files    	             		       "As expected"
+TC23 -  Verify bulk upload allows to edit the data 	 -> The bulk upload should allow us to edit the data within						    	       "As expected" 
+TC24 -  Verify bulk upload preview 		    	 -> The questions to be uploaded should have a preview before uploading				     		       "As expected" 
+TC25 -  Verify deleting unwanted errorness questions 	 -> The bulk should have an option of deleting only the questions with errors 			     		       "As expected"
+TC26 -  Verify for missing fields in bulk upload	 -> The system should indicate missing fields while uploading the questions				     	       "As expected"
+TC27 -  Verify indication of empty file		     	 -> The system should indicate empty files								 	  "Takes and shows no questions" 
+TC   -  Verify uploading empty file with file with data -> The system should accept the file with data and ignore the empty file  					       "As expected" !*
+TC28 -  Verify uploading multiple files		         -> Bulk upload should allow multiple files while uploading						     	       "Accepts upto 5 files"
+TC29 -  Verify counting of questions		         -> The preview should show total number of questions  						    		       "As expected"
+TC30 -  Verify Pagination for preview		    	 -> The system should show pagination when there is more number of questions				     	       "As expected"
+TC31 -  Verify uploading questions with error	    	 -> The upload button should be disabled when the data has errors					     	       "As expected"
+							  < Can have upload option in bulk upload page instead of preview page >
+TC32 -  Verify removing questions with errors	    	  < During bulk uploading of questions, in preview the question can have deleting option >   	     		       
+TC33 -  Verify uploaded questions		    	 -> The questions should be displayed after uploading 						    		       "As expected"
+TC34 -  Verify for updated questions		    	 -> The system should display the increase in count when new qns are uploaded			  		       "As expected"
+TC35 -  Verify removal of file 			    	 -> The user should be able to remove wrong selection of files 					    		       "As expected"
+TC   -  Verify cancel option in bulk upload 		 -> The cancel option should cancel the process of uploading							       "As expected'
+							  < After preview the page should not exit or escape/ can have an indication of yes or no to exit  >
+TC36 -  Verify working of adding new questions	    	 -> Click on add new question to add questions       						     		       "As expected"
+TC37 -  Verify adding multiple choice question	    	 -> The system should be able to add multiple choice questions					      		       "As expected"
+TC38 -  Verify adding multiple options for MCQs		 -> The system should be able to add multiple options for an MCQ question					       "As expected"
+TC38 -  Verify adding MCQ options 			 -> The system should be able to add options for MCQs							 "The place holder is in editable format"
+TC39 -  Verify adding coding questions		    	 -> The system should be able to add coding questions						      		       "As expected"
+TC40 -  Verify adding fill up questions		    	 -> The system should be able to add fill up questions						     		       "As expected"
+TC41 -  Verify adding comprehension question		 -> The system should be able to add comprehension questions							       "As expected"
+TC42 -  Verify adding multiple options in comprehension  -> The system should be able to add multiple options for comprehension question	       		   "Switching choices results in error"
+TC41 -  Verify mandatory fields			    	 -> The system should show mandatory fields while leaving a blank space				       		       "As expected"
+TC42 -  Verify draft saving			    	 -> The system should save the data as draft for the questions yet to complete				       	       "As expected" 
+TC43 -  Verify adding multiple choices		    	 -> User should be able to add multiple options for multiple choice questions			      		       "As expected"
+TC44 -  Verify adding images                         	 -> User should be able to add images in the questions						      		       "As expected"
+TC45 -  Verify blank space for fill up questions	 -> Should show blank space as a mandatory one in a fill up question					    	       "As expected"
+TC46 -  Verify multiple answers for fill up	    	 -> The system should be able to give multiple answers for a fill up question			     		       "As expected"
+TC47 -  Verify multiple/single answers for comprehension qns -> The user should be able to add multiple and single choices for a comprehension question 	     	       "As expected"
+TC48 -  Verify word limit for passage comprehension 	 -> The passage should not exceed the word limit							    	       "As expected"
+TC49 -  Verify for mandatory answer option	      	 -> The system should ask for mandatory answer option 			 					       "As expected"
+							  < The system should show mandatory answer option > < Want to change the text " Answer options " >
+TC50 -  Verify edit/view of uploaded questions		 -> The uploaded questions should be able to edit/view after uploading						       "As expected"
+TC51 -  Verify added/Updated questions visibility	 -> The questions uploaded should be visible to the user							       "As expected"
+TC52 -  Verify questions added in the library		 -> The questions added should be shown in library count							       "As expected"
+TC53 -  Verify pagination for library questions          -> Pagination should be available while displaying questions in the library 					       "As expected"
+TC54 -  Verify portal sign out				 -> User should be able to sign out from the portal						 		       "As expected"
+TC   -  Verify portal access after sign out 		 -> After sign out the portal should not open when clicking on browser back button				       "As expected" !*
+TC55 -  Verify portal access				 -> Try signing in with other credentials. The system should reject unknown access				       "As expected"
+
+
+ASSESSMENT SECTION:
+
+TC-ID			TEST CASES						EXPECTED OUTPUT							        		      ACTUAL OUTPUT
+
+TC56 -  Verify working of adding new assignment		 -> Click the add  new assignment button and try adding new assessment						       "As expected"  
+TC57 -  Verify the assessment filter search		 -> Search your assessment using the filter									       "As expected"
+       							 => < Search bar moves along while scrolling >	
+TC58 -  Verify for mandatory title field 		 -> Try leaving title as an empty field and it should show mandatory field error				       "As expected" 
+TC59 -  Verify visibility of assessment 		 -> Check whether the assessment is displayed after adding							       "As expected"
+TC60 -  Verify adding multiple sections			 -> Should be able to add multiple sections									       "As expected"
+TC61 -  Verify empty title section mandatory field	 -> The should show mandatory filed error for empty title field							       "As expected"
+TC62 -  Verify adding sections without questions 	 -> The system should show an error when no questions are added							       "As expected" 
+TC63 -  Verify adding questions under each sections	 -> The user should be able to add questions under each section							       "As expected"
+TC64 -  Verify questions count under each section  	 -> The system should show questions under each section separately 						       "As expected"
+TC65 -  Verify total sections count 			 -> After adding sections the count should be shown 								       "As expected"
+							  < keeps default value as 1 and considers it during count when Assessment is left drafted"
+TC66 - Verify total question count			 -> After adding questions the total questions field should show total number of questions in all the sections	       "As expected"
+TC08 - Verify duration in header 			 -> When section wise timer is on, the total session duration should be updated in the header                         "Not as expected"
+TC67 - Verify for Override score			 -> The questions should be overridden with the score when applied override score				       "As expected"
+TC69 - Verify view and delete of section creation 	 -> The user should be able to view and delete the section							       "As expected"
+TC70 - Verify view and delete questions			 -> The user should be able to view and delete the questions					         	       "As expected"
+       							 => < Viewing question under section shows edit question as a title >			    
+TC72 - Verify draft question availability 		 -> The questions saved as drafts should not be available while adding questions in creating an assessment             "As expected"
+TC73 - Verify job role search filter			 -> The search should filter the assessment with the specified search		      				       "As expected"
+TC74 - Verify maturity filter				 -> The search should provide expected result when searched with 2 maturity status				       "Not as expected"
+TC76 - Verify for duplication with assessment keyword	 -> The system should show if the assessment already exists with this name					       "Not as expected" 
+TC77 - Verify assessment creation message 		 -> The message should be shown as assessment created after creating an assessment				       "As expected"
+TC   - Verify for view and edit assessment  		 -> The assessment should be able to view and edit 								       "As expected"
+       
+       
+ADMINISTRATION SECTION:
+
+TC-ID			TEST CASES						EXPECTED OUTPUT							        		      ACTUAL OUTPUT
+
+TC78 -  Verify for search Administration		 -> The search bar should check for duplicates and should show already existing Administration			       "Not as expected"
+TC79 -  Verify for mandatory fields			 -> The administration and assessment title field should be a mandatory field     				       "As expected"
+TC80 -  Verify selection of assessment			 -> The system should show the list of assessments created already for selecting the assessment  		       "As expected"
+TC81 -  Verify duration settings			 -> The duration settings is a mandatory field								"Mandatory field Asterisk is not shown"
+TC82 -  Verify for session wise timer			 -> The system should set the total time of all the sections as a session time/test duration			       "As expected"
+TC83 -  Verify fixed section duration			 -> The assessment duration is fixed when once given during an assessment creation				       "As expected"
+TC84 -  Verify excluding drafted assessment		 -> Drafted assessments should not be shown while selecting assessments in administration creation		       "As expected"
+TC85 -  Verify valid email id for invite link		 -> The system should ask for valid email id as a mandatory field  						       "As expected" 
+TC86 -  Verify for invite link through mail		 -> An invite link should be received by the respective mail id user						       "As expected"
+TC87 -  Verify working of invite link			 -> The invite link should direct to the assessment portal where the test should be taken			       "As expected"
+TC88 -  Verify total test assigned count		 -> The system should show the count of tests assigned								       "As expected"
+TC89 -  Verify for test details				 -> The system should show test status(taken/not attended),Start and end time,total assessments scheduled	       "As expected"
+TC90 -  Verify for no start and end time 		 -> The scheduled test should be active at any time when no start and end time given				       "As expected" 
+TC91 -  Verify for test duration			 -> The test should end within the duration 									       "As expected"
+TC92 -  Verify for start time 				 -> The test should be active and ready to attend only after the start time 					       "As expected" 
+TC93 -  Verify for end time				 -> The test should end within the end time given and should not be active after the end time 			       "As expected"
+TC   -  Verify for Test expiry 				 -> The test should be shown as expired if the test is not attempted within the end time 			       "As expected"
+TC94 -  Verify for section timer			 -> The system should set the time for a section fixed								       "As expected"
+TC95 -  Verify for code replay				 -> The code entered by the user should be available as a video in the report for verification			       "As expected"
+TC   -  Verify code replay disabled 			 -> The code replay should not be shown in report 								       "As expected"
+TC96 -  Verify for test retake				 -> The user should be able to retake the test according to the retake count given 				       "As expected"
+        						  < The test retake is shown in completed tests, after clicking retake refreshing the page is required for viewing the test in active tests>
+        						  < For refreshing the page we need to escape the window as the page exists in full screen mode >
+	     						  < Retake tests from the same invite link is possible>
+TC97  -  Verify for default proctoring mode		 -> Proctoring such as copy paste,browser compatibility, full screen mode should be enabled by default		        "As expected"
+tc    -  Verify without proctoring mode			 -> Proctoring such as copy paste,browser compatibility, full screen mode should be disabled				"As expected"
+TC98  -  Verify for toggle switches in assessment settings-> Enable and disable of toggle switches should be available				      "Code replay toggle switch is unable to disable"
+TC99  -  Verify working of proctoring mode		 -> copy paste, tab switching, full screen mode should be enabled while taking tests					"As expected" 
+TC    -  Verify disabling proctoring mode 		 -> Tab switching should be available and the test should not be full screen mode					"As expected"
+TC100 - Verify tab switching 				 -> An warning should be shown when switching tabs during test 								"As expected"
+TC101 - Verify enable tab switching			 -> The test should end with an warning message when the tab switch count exceeds the limit		 		"As expected"
+TC    - Verify disabling tab switching			 -> The tab switch count and full screen exit count should be shown in report 						"Count incorrect"
+TC102 - Verify for section navigation			 -> The section navigation during the test should not be available and should be available only after section completion"As expected"
+							  < Section navigation is available when Test duration is created while scheduling an assessment in administration >
+TC103 - Verify section end time indicator		 -> The section end time should be indicated during the test at least before 1 minute 					"As expected"
+TC104 - Verify end test					 -> Click on end test to end the test with a successful completion message 						"As expected"
+TC105 - Verify end test					 -> The test should end only when all sections are completed or else indicate to complete all sections			"As expected"
+TC106 - Verify show score 				 -> When show score settings is enabled the score should be shown at the scheduled time					"As expected"
+TC107 - Verify show correct answer 			 -> When show correct answers settings is enabled the correct answers should be shown at the scheduled time		"As expected"
+TC    - Verify disabling score and answer		 -> The score and answer should not be shown in report of candidate							"As expected"
+TC108 - Verify question randomization 			 -> Questions selected in assessment should be randomized according to requirement 				        "As expected" 			
+TC    - Verify for submitting answers button		  < Test page contains 2 submit answers button (This is for fill up question) > < This hides the answering field >      
+TC    - Verify for status in report			 -> The status of all the questions should be shown in report								"As expected"
+							  < Except for fill up and comprehension question all other question"s status has color >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+ no action for long time   
+ off tab switch, esc full screen count      						       
+ CHECK FOR SESSION WISE TIMER- TOTAL TIME    
+ start and end time     
+ 2 Submit answers for fill up questions   
+ Random options 
+ 
+check edited administration is ready to take test after receiving mail     
+ 
+mail received after end time but not shown in arena      
+question search exactly searches only keyword without space
+
+
+
+Bugs:
+job role is not updated when we edit an already created assessment
+
+
+
+pp app
+
+likert scale question score is default for the options except 1st option
+
+
+24th dec 
+fill up blank error - not hidden
+enter valid option error - hidden(hover)
+1st show score next show answer - working
+1st show answer next show score - waits for show score time
+scheduled test stays still [for 2 to 3 mins] to become active (requires refresh)
+
+jan 6
+fill up error not hidden
+comp- fill up error not hidden
+comp drafts saves without answer while creating question
+comp fill up- excess answer adding option - no delete button
+     
+       
