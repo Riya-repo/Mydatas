@@ -1,0 +1,79 @@
+
+--Yet to report
+
+Jan 28
+1. The report is not Generated after completion of the interview.
+
+Jan 29
+CREYA ADMIN
+1.When we move for the fourth stepper and click back option, the page is landing on schedules but highlight bar is showing on job details.
+2.Modal is not fetching information as per figma
+3.Same date and time are possible in pp.
+
+Jan 30
+CREYA BOT
+1. The repeated question is based on the skills in JD (i think so).
+
+Jan 31
+PP ARENA
+1.Pagination for assessment sessions and Completed tests are not working.
+
+Feb 3
+1. Change test to interview.
+2. Clicking profile icon turns off camera(showing different options.
+3. Switching from traditional to Gen AI the entered data is cleared.
+4. Same date and time are possible in 3rd Stepper.
+46, 98
+5.No report generated in pp
+
+Feb 4
+report spelling
+enum bug iteration
+user name
+insight data
+company details
+ 
+Feb 5
+1.JD format is changing for every time when we move from 2nd stepper to 1st stepper.
+2.Start date error labeling is staying still even after the time is set correct.
+3.Drafted interview requires refresh to make it visible in AI interview page.
+4.The report is not shown when we click on Reports button.
+5.What is the functionality of the 3 dots in Interview card (AI Interview page).--
+6.Make the loader visible in Schedules page.--
+
+Assessment:
+1.Expanding the section to add questions auto scrolls the page to section 1.--
+
+Creya bugs:
+1.When we move for the fourth stepper and click back option, the page is landing on schedules but highlight bar is showing on job details.
+2.JD format is changing for every time when we move from 2nd stepper to 1st stepper.
+3.Drafted interview requires refresh to make it visible in AI interview page.
+4.The report is not shown when we click on Reports button.
+5.Start date error labeling is staying still even after the time is set correct.
+6.Switching from traditional to Gen AI the entered data is cleared.
+
+Feb 6
+Assessment:
+1.Why showing answers for candidate can be also done for Admin side?--
+2.Category is showing only the 1st letters in candidate report and also admin side.
+
+Feb 12 (Prod)
+Bugs found in Creya:
+The bot takes only half of my input.
+After two questions the bot is not responding, ans so i resumed the interview by tab switching.
+After tab switching the bot resumed the interview with Greetings which will happen at the start.
+Transcription is too slow.
+For the last 3 minutes the bot does not asked any question and didn't take my input.
+While switching the screen tile, the video is not working for the candidate.
+When the candidate answered the question for 5 min the interview got ended.
+The report is not generated for this interview.
+
+Feb 17 
+1.Does show score and correct answer work alternately?--
+2.Why duration in Assessment?--
+3.Image on Quill works fine but size is not supported, so that the image is not saved (This may cause no visibility of image in arena side)--
+
+
+
+
+
